@@ -11,9 +11,9 @@ public class MainVoadores {
 
     private static void imprimiVoadores(RepositorioVoadores rep) {
         for (int i = 0; i < 10; i++) {
-            rep.FazVoar(i); #chamada do metodo voar
-            rep.FazPlanar(i); #chamada do metodo planar
-            rep.FazPousar(i); #chamada do metodo pousar
+            rep.FazVoar(i); 
+            rep.FazPlanar(i); 
+            rep.FazPousar(i); 
         }
 
     }
