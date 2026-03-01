@@ -15,31 +15,31 @@ public class RepositorioVoadores {
     }
 
     public void FazVoar(int posicao) {
-        voadores.get(posicao).voar();
+        voadores.get(posicao).voar(); #chamada para voar
     }
 
     public void FazPlanar(int posicao) {
-        voadores.get(posicao).planar();
+        voadores.get(posicao).planar(); #chamada para planar
     }
 
     public void FazPousar(int posicao) {
-        voadores.get(posicao).pousar();
+        voadores.get(posicao).pousar(); #chamada para pousar
     }
 
     public void FazTodosVoarem(){
         for(Voador voador : voadores){
-            voador.voar();
+            voador.voar(); #chamada
         }
     }
     public void FazTodosPlanarem(){
         for(Voador voador : voadores){
-            voador.planar();
+            voador.planar(); #chamada
         }
     }
 
     public void FazTodosPousarem(){
         for(Voador voador : voadores){
-            voador.pousar();
+            voador.pousar(); #chamada
         }
     }
 
